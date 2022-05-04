@@ -23,3 +23,6 @@ The robot, simulated in Gazebo, uses 3 ROS topics to navigate the maze. It subsc
   <code>catkin_ws/src/assessment_1/scripts/navigation.py</code></li>
 
 </ol>
+
+# Video Demonstration
+[![Demonstration](http://img.youtube.com/vi/8BwjYr6XPkk/0.jpg)](http://www.youtube.com/watch?v=8BwjYr6XPkk "CMP3103M-AMR-Assessment1")
