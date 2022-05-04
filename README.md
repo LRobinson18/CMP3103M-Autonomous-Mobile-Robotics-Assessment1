@@ -1,5 +1,6 @@
 # CMP3103M-Autonomous-Mobile-Robotics-Assessment1
-Reactive robot behaviour, programmed in Python using ROS that enables a robot to find a goal in a maze.
+<p>Reactive robot behaviour, programmed in Python using ROS that enables a robot to find a goal in a maze simulation.</p>
+The robot, simulated in Gazebo, uses 3 ROS topics to navigate the maze. It subscribes to the LaserScan and Image data and publishes to the Velocity node. The navigation algorithm works by determining the average distances of both sides of the robot, then rotating towards the direction where there is more space. Also if the camera detects colour, it will act depending on it, moving towards blue/green and away from red.
 
 <ol>
   <p>
@@ -17,5 +18,8 @@ Reactive robot behaviour, programmed in Python using ROS that enables a robot to
 
   <li>Launch the sensor visualisation(optional):<br>
   <code>roslaunch uol_turtlebot_simulator turtlebot-rviz.launch</code></li>
+  
+  <li>Run the navigation code. Path:<br>
+  <code>catkin_ws/src/assessment_1/scripts/navigation.py</code></li>
 
 </ol>
